@@ -16,7 +16,12 @@ In this version of the classic game, powerful AI models like OpenAI, Meta, and M
 
 - HTML
 - CSS
-- JavaScript (Factory Functions and Module Pattern)
+- JavaScript
+- NodeJS
+- Groq
+- OpenAI
+- Claude
+- Gemini
 
 ## Demo
 

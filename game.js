@@ -412,8 +412,8 @@ async function groqAI(boardView, currentPlayer, name) {
   console.log("Player name -> ", name);
   try {
     const response = await fetch(
-      // "https://us-central1-adverse-436618.cloudfunctions.net/aiplaystictactoe/makeMove",
-      "http://localhost:3000/api/makeMove",
+      "https://us-central1-adverse-436618.cloudfunctions.net/aiplaystictactoe/api/makeMove",
+      // "http://localhost:3000/api/makeMove",
       {
         method: "POST",
         headers: { "Content-Type": "application/json" },

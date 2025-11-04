@@ -6,3 +6,6 @@
 
 # misc
 /backend/.gcloudignore
+
+# build
+/dist
