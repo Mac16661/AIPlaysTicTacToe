@@ -1,4 +1,4 @@
-import { groq, models, systemPrompt } from "../services/common.js";
+import { groq, models, systemPromptGroq } from "../services/common.js";
 
 
 export default async function moveController(req, res) {
@@ -13,7 +13,7 @@ export default async function moveController(req, res) {
       messages: [
         {
           role: "system",
-          content: systemPrompt,
+          content: systemPromptGroq,
         },
         {
           role: "user",

@@ -1,4 +1,4 @@
-# Tic-Tac-Toe Game
+# AI Plays Tic-Tac-Toe
 
 Welcome to the AI-Powered Tic-Tac-Toe game!
 In this version of the classic game, powerful AI models like OpenAI, Meta, and Moonshot take the place of human players to compete against each other and predict the next best move intelligently.
