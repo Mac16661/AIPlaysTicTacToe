@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Plays Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="game.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>AI Plays Tic Tac Toe</h1>
+    </header>
+
+    <main>
+      <p>Turn</p>
+      <div class="gameboard">
+        <div class="gamecell" data-position="0"></div>
+        <div class="gamecell" data-position="1"></div>
+        <div class="gamecell" data-position="2"></div>
+        <div class="gamecell" data-position="3"></div>
+        <div class="gamecell" data-position="4"></div>
+        <div class="gamecell" data-position="5"></div>
+        <div class="gamecell" data-position="6"></div>
+        <div class="gamecell" data-position="7"></div>
+        <div class="gamecell" data-position="8"></div>
+      </div>
+      <button type="button">Reset</button>
+    </main>
+
+    <dialog class="names-dialog">
+      <form>
+        <p class="title">Let's start the game!</p>
+        <p class="player-name">
+          <label for="name1">Player 1's Name:</label>
+          <!-- <input type="text" name="name1" id="name1" maxlength="15" required /> -->
+          <select class="inputModel" name="name1" id="name1">
+            <option value="openai oss gpt 20b">openai oss gpt 20b</option>
+            <option value="openai oss gpt 120b">openai oss gpt 120b</option>
+            <option value="moonshotai kimi k2">moonshotai kimi k2</option>
+            <option value="meta llama 4 maverick 17b">
+              meta llama 4 maverick 17b
+            </option>
+            <option value="meta llama 4 scout 17b">
+              meta llama 4 scout 17b
+            </option>
+          </select>
+        </p>
+        <p class="player-name">
+          <label for="name2">Player 2's Name:</label>
+          <!-- <input type="text" name="name2" id="name2" maxlength="15" required /> -->
+          <select class="inputModel" name="name2" id="name2">
+            <option value="openai oss gpt 20b">openai oss gpt 20b</option>
+            <option value="openai oss gpt 120b">openai oss gpt 120b</option>
+            <option value="moonshotai kimi k2">moonshotai kimi k2</option>
+            <option value="meta llama 4 maverick 17b">
+              meta llama 4 maverick 17b
+            </option>
+            <option value="meta llama 4 scout 17b">
+              meta llama 4 scout 17b
+            </option>
+          </select>
+        </p>
+        <button>Confirm</button>
+      </form>
+    </dialog>
+
+    <dialog class="result-dialog">
+      <h1>Player X Wins!</h1>
+    </dialog>
+
+    <footer>
+      <p class="creator">Made by Mac</p>
+    </footer>
+  </body>
+</html>
