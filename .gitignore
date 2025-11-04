@@ -1,0 +1,8 @@
+# node modules
+/backend/node_modules
+
+# env files
+/backend/.env
+
+# misc
+/backend/.gcloudignore
